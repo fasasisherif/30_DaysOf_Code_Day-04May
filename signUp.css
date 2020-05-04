@@ -1,0 +1,118 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		background-color:#f4f4f4;
+		background-image:url(wall.png);
+		background-size:cover;
+		background-position:center;
+		}
+.zero{
+		text-align:center;
+		padding:5px;
+		color:white;
+		}
+.top{
+		margin:1pc auto auto auto;
+		font-size:30px;
+		font-weight:bold;
+		color:white;
+		}
+.bottom{
+		font-size:23px;
+		color:white;
+		}
+form{
+		border:2px solid #dbdbdb;
+		background-color:#f4f4f4;
+		width:85%;
+	 margin:2pc auto;
+	 padding:25px 10px;
+	 border-radius:10px;
+		}
+.topic{
+		text-align:center;
+		font-size:28px;
+		padding:10px;
+		font-weight:bold;
+		}
+input{
+		outline:none;
+		border:none; 
+		width:93%;
+		font-family:"Baloo Da 2";
+		font-size:15px;
+		padding:5px;
+		border-radius:10px;
+		border:2px double #aeaeae;
+		}
+label{
+		display:block;
+		padding:15px;
+		transitio:font-size .7s ease;
+		}
+.one, .three, .five, .seven, .nine, .eleven{
+		font-size:21px;
+		transition:font-size .7s ease;
+		}
+.two, .four, .six, .eight, .ten, .twelve{
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height .7s;
+		}
+.first, .second, .third, .fourth, .fifth, .sixth{
+		border:2px double #aeaeae;
+		border-radius:10px 0px;
+		width:95%;
+		background-color:#f0f0f0;
+		padding:7px;
+		margin:auto auto 1.5pc auto;
+		}
+.thirteen{
+		margin:auto;
+		}
+input[type="submit"]{
+		display:block;
+		background-color:lightblue;
+		margin:auto;
+		padding:10px;
+		border-radius:10px;
+		width:100%;
+		font-size:17px;
+		border:1px solid #aeaeae;
+		}
+input[type="submit"]:hover{
+		background-color:lightskyblue;
+		}
+.signIn{
+		text-align:center;
+		}
+.nineth{
+		background-colo:#dbdbdb;
+		padding:10px 50px 50px 50px;
+		border-to:2px double grey;
+		borde:2px double grey;
+		margin-top:5pc;
+		}
+.icons{
+		width:40%;
+		margin:auto;
+		padding:10px;
+		display:flex;
+		justify-content:center;
+		}
+.icon11, .icon22{
+		width:50px;
+		height:50px;
+		}
+
+
+
+/* MEDIA QUERY BEGINS */
+@media(min-width:768px){
+form{
+		width:40%;
+		}				
+	}
+
